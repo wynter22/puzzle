@@ -1,0 +1,32 @@
+.puzzle {
+    display: grid;
+    width: 500px;
+    grid-template-columns:  repeat(4, 1fr);
+}
+
+.item {
+    width: 150px;
+    display: flex;
+    text-align: center;
+    font-size: 30px;
+    font-weight: bold;
+    justify-content: center;
+    align-items: center;
+    line-height: 150px;
+    background: lightyellow;
+    border: solid 1px #000;
+}
+
+
+.empty {
+    width: 150px;
+    display: flex;
+    text-align: center;
+    font-size: 30px;
+    font-weight: bold;
+    justify-content: center;
+    align-items: center;
+    line-height: 150px;
+    background: #fff;
+    border: solid 1px #000;
+}
