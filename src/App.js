@@ -1,5 +1,4 @@
 import React from 'react';
-import './App.css';
 import Puzzle from './app/Puzzle';
 
 function App() {
